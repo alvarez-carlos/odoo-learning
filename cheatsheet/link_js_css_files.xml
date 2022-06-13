@@ -1,0 +1,10 @@
+<data>
+    <!-- Adds all assets in Odoo -->
+  <template id="assets_backend" name="static_resources_demo assets" inherit_id="web.assets_backend">
+    <xpath expr="." position="inside">      
+        <!--These links will be called when loading your Odoo -->
+        <link rel="stylesheet" href="/registros_fiscales/static/src/css/main.css" />
+        <script type="text/javascript" src="/registros_fiscales/static/src/js/main.js"></script>
+    </xpath>
+  </template>
+</data>
